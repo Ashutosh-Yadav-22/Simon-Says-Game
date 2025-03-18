@@ -33,7 +33,7 @@ function levelup(){
     level ++;
     h2.innerText = `level ${level}`;
 
-    let randIdx = Math.floor(Math.random()*3);
+    let randIdx = Math.floor(Math.random()*4);
     let randColor = btns[randIdx];
     let randbtn = document.querySelector(`.${randColor}`);
     gameseq.push(randColor);
